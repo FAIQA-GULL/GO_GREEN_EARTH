@@ -1,0 +1,40 @@
+{
+	padding: 0;
+	box-shadow: 0;
+}
+
+.main_div{
+	height: 2000px;
+	width: 100%;
+	/*background-color: gray;*/
+
+}
+.container_div{
+	width: 100%;
+	height: 30%;
+	/*background-color: pink;*/
+}
+
+.main_view{
+	height: 100%;
+	width: 100%;
+	/*background-color: white;*/
+}
+.main_view img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.main_view::before{
+	content:"";
+	background-color:  black;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index:-1;
+	
+	top: 0px;
+        left:0px;
+         opacity:0.4;
+
+}
